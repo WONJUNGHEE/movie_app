@@ -1,0 +1,15 @@
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a:link {
+  background-color: burlywood;
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  font-style: none;
+  text-decoration: none;
+  border: 1px solid black;
+}

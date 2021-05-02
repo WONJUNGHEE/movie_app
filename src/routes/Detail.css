@@ -1,0 +1,39 @@
+.detail__poster {
+  display: flex;
+  padding: 70px 50px 50px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  background-color: #fff;
+  font-size: 300;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+}
+
+.detail__poster img {
+  max-width: 250px;
+
+  margin-bottom: 30px;
+  width: 100%;
+  position: relative;
+  max-height: 350px;
+
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail__poster ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.detail__poster li {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.detail__year {
+  font-size: 20px;
+}
